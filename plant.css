@@ -341,10 +341,7 @@
 }
 
 #part4-product-page {
-  width: 1288;
   height: 1278px;
-  margin: 0;
-  padding: 0;
   margin-left: 120px;
   margin-top: 56px;
   display: grid;
@@ -361,7 +358,7 @@
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.14);
   background-color: white;
   border-radius: 20px;
-  width: 372px;
+  width: 10%px;
   height: 506px;
 }
 
@@ -375,13 +372,17 @@
   height: 511px;
   display: flex;
   margin-top: 16px;
-  padding-left: 8px;
+}
+
+#name-price {
+  margin-right: 150px;
 }
 
 .product-name {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  width: 228px;
 }
 
 .product-price {
@@ -441,4 +442,315 @@
   display: flex;
   margin-top: 160px;
   background-color: #1B3A27;
+}
+
+#part6-head {
+  font-family: 'Merriweather';
+  font-style: normal;
+  margin-top: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  width: 370px;
+  height: 160px;
+  margin-left: 120px;
+  margin-bottom: 26px;
+  color: #ffffff;
+}
+
+#part6-body {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 143%;
+  margin-left: 120px;
+  width: 579px;
+  height: 279px;
+  color: #D2D2D2;
+
+}
+
+.part6 button {
+  width: 226px;
+  height: 68px;
+  border: none;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 120px;
+  margin-top: 72px;
+  background-color: #53C251;
+  color: white;
+}
+
+.part7 {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+#part7-head {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.group-testimonia {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+
+.testimonia-page {
+  width: 390px;
+  height: 335px;
+  background: #F4F4F4;
+  border-radius: 10px;
+  margin-top: 46px;
+  margin-bottom: 160px;
+}
+
+.testimonia-page2 {
+  width: 390px;
+  height: 335px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 46px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.14);
+  margin-bottom: 160px;
+}
+
+#testimonia-group {
+  width: 359px;
+  height: 126px;
+  margin-bottom: 48px;
+  padding: 93px 24px 0 24px;
+}
+
+.testimonia-details {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.012em;
+  color: #7D7D7D;
+  width: 359px;
+  height: 126px;
+}
+
+#profile-testimonia {
+  display: flex;
+  padding: 0 0 16px 24px;
+}
+
+#img-profile {
+  margin-right: 15px;
+}
+
+#name-testi {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#title-testi {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #6C6D6C;
+}
+
+.promotion-group {
+  display: flex;
+  justify-content: center;
+}
+
+.promotion {
+  width: 588px;
+  height: 315px;
+  border: 1px solid #2B7515;
+  border-radius: 10px;
+}
+
+#promo-text {
+  padding: 40px 45px 0 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2B7515;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#promo-bodycopy {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  width: 548px;
+  color: #AFAFAF;
+  margin-top: 8px;
+  padding: 0 20px 0 20px;
+}
+
+.mail-box {
+  width: 404px;
+  height: 56px; 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 8px;
+  color: #000000;
+  background: #F2F2F2;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 23px;
+}
+
+.submit-box {
+  width: 133px;
+  height: 56px; 
+  border: none;
+  background: #2B7515;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  margin-top: 63px;
+}
+
+.footer {
+  background: #2B7515;
+  margin-top: 157px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-time {
+  padding-top: 70px;
+  margin-left: 120px;
+ 
+}
+
+.logo-time ul {
+  list-style: none;
+  padding-top: 40px;
+  padding-bottom: 138px;
+}
+
+.logo-time ul a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px; 
+}
+
+.company-footer {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 108px;
+  padding-left: 84px;
+}
+.company-footer li {
+  list-style: none;
+}
+
+#home {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+#home-body {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+#about {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 50px;
+}
+
+#about-body {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+#company {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 50px;
+}
+
+#company-body {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+#contact {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 68px;
+}
+
+#contact-body {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+#privacy-group {
+  display: flex;
+  justify-content: baseline;
+}
+
+.privacy {
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  
 }
