@@ -257,7 +257,7 @@
 
 .big-img {
   width: 100%;
-  text-align: left;
+  text-align: right;
   margin-left: 0 auto;
 }
 
@@ -468,6 +468,12 @@
   height: 279px;
   color: #D2D2D2;
 
+}
+
+.horti-img {
+  display: flex;
+  justify-content: right;
+  width: 100%;
 }
 
 .part6 button {
